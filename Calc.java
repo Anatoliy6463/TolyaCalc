@@ -30,13 +30,16 @@ class Calc {
             System.out.println("НА НОЛЬ ДЕЛИТЬ НЕЛЬЗЯ");
         }
         else if (deistviye == 5 && n2 != 0){
-            int n4 = 1;
-            int n3 = n1;
-            while(n4 <= n2) {
-                n4++;
-                n3 = n1*n2;
+            int a = n1;
+            int n = n2;
+            int m = 0;
+            for (int o = 1; o < n; o++) {
+                a *= n2;
             }
-            System.out.println (n1 + " ^ " + n2 + " = " + n3);
+            System.out.println (n1 + " ^ " + n2 + " = " + a);
+        }
+         else if (deistviye == 5 && n2 == 0){
+            System.out.println (n1 + " ^ 0  = 0");
         }
 	}
 }
