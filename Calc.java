@@ -36,7 +36,7 @@ class Calc {
                 n4++;
                 n3 = n1*n2;
             }
-            System.out.println (n1 + " ^ " + n2 + " = " + n3;);
+            System.out.println (n1 + " ^ " + n2 + " = " + n3);
         }
 	}
 }
