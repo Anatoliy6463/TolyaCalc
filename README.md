@@ -1,6 +1,4 @@
-README.md 
-
-# Calculator App 
+# TolyaCalc
 
 This calculator app supports basic arithmetic operations, power functions, and more, making it a versatile tool for anyone looking to crunch numbers quickly and easily. Whether you need to add, subtract, multiply, divide, or raise a number to a power, this app has you covered. Plus, it supports both integer and decimal numbers, so you can work with any kind of data you need.
 
